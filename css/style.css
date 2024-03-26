@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
     background-color: black;
@@ -27,6 +28,7 @@ body{
     background-image: url(https://th.bing.com/th/id/OIP.quSkL1ZhdzpqMASTBtGTOQHaGA?pid=ImgDet&w=183&h=148&c=7&dpr=2);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .footer-content{
@@ -48,7 +50,19 @@ body{
     text-align: center;
    height: 100%;
     margin: 0 20px ;
+    
 }
 .icons-color{
     width: 30px;
+   
+}
+.mic-vid{
+    background-color: rgba(0, 0, 0, 0.586);
+    position: absolute;
+    bottom: 30px;
+    color: whitesmoke;
+}
+.close{
+    color: red;
+    line-height: 4;
 }
