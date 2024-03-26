@@ -3,13 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: grey;
+}
 
 .container{
-    max-width: 1200px;
+    max-width: 95vw;
     margin: auto;
+    background-color: blue;
+    
 }
 .row{
+    margin: 50px 0;
     width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
+   
+}
+.content{
+    width: calc(100%/7 - 10px);
+    height: 150px;
+    margin: 5px;
+    background-image: url(https://th.bing.com/th/id/OIP.quSkL1ZhdzpqMASTBtGTOQHaGA?pid=ImgDet&w=183&h=148&c=7&dpr=2);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
